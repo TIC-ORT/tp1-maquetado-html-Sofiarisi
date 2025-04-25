@@ -16,8 +16,53 @@
     background-color: aqua;
 }
 .botom{
-    height: 35vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     background-color: white;
+    justify-content:center;
+    align-items: center;
+    .abajo{
+        display:flex;
+        background-color: transparent;
+        width: 80%;
+        height: 35vh;
+        gap: 40px;
+        .derecha{
+            border: 5px solid red;
+            height: 100%;
+            width: 30%;
+            .cuadrado-rosa{
+                background-color: pink;
+                border: 5px solid green;
+                height: 80%;
+                width: 100%;
+                
+
+            }
+
+        }
+        .medio{
+            
+            border: 5px solid red;
+            height: 100%;
+            width: 30%;
+            .cuadrado-celeste{
+                background-color: lightblue;
+                border: 5px solid green;
+                height: 80%;
+                width: 100%;
+            }
+
+        }
+        .izquierda{
+         
+            border: 5px solid red;
+            height: 100%;
+            width: 30%;
+
+        }
+
+
+    }
 }
