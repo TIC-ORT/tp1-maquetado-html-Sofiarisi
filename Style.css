@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+}
+:root{
+    --celestito:#afe8ef;
 }
 .top{
     height: 30vh;
@@ -60,11 +64,37 @@
 
     }
 }
+
 .midle{
     height: 35vh;
     width: 100%;
     display: flex;
-    background-color: lightblue;
+    background-color:rgb(175, 232, 239);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    .centro-div{
+        background-color: transparent;
+        height: 70%;
+        width:70%;
+        display:flex;
+        justify-content: space-between;
+        
+        .cuadrado-centro{
+            height: 100%;
+            width:30%;
+            background-color: red;
+
+
+        }
+        .texto-centro{
+            height: 100%;
+            width:60%;
+            background-color: green;
+
+        }
+
+    }
 }
 .botom{
     height: 40vh;
@@ -103,7 +133,7 @@
             width: 30%;
             
             .cuadrado-celeste{
-                background-color: lightblue;
+                background-color: var(--celestito);
                
                 height: 70%;
                 width: 100%;
