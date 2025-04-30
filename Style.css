@@ -28,19 +28,19 @@
            width:50%;
            display: flex;
            background-color: var(--naranjaclaro);
-           .linea-buscador-div{
-            height:100%;
-            width: 87%;
-            background-color: transparent;
-            display:flex;
-            justify-content: center;
-            align-items: center;
-            .linea-buscador{
-                height: 30%;
-                width:90%;
-                background-color:white ;
+            .linea-buscador-div{
+                height:100%;
+                width: 87%;
+                background-color: transparent;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                    .linea-buscador{
+                        height: 30%;
+                        width:90%;
+                        background-color:white ;
+                    }
             }
-           }
            .cuadrado-buscador{
             height:100%;
             width: 13%;
@@ -98,13 +98,13 @@
     .centro-div{
         background-color: transparent;
         height: 70%;
-        width:75%;
+        width:80%;
         display:flex;
         justify-content: space-between;
         
         .cuadrado-centro{
             height: 100%;
-            width:28%;
+            width:29%;
             background-color:#97d3db;
 
 
