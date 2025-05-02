@@ -23,6 +23,7 @@
         display: flex;
         justify-content: center;
         align-items:end;
+        
         .buscador{
            height:50%;
            width:50%;
@@ -106,6 +107,56 @@
             height: 100%;
             width:29%;
             background-color:#97d3db;
+            .punto-linea-centro-div{
+            height: 50%;
+            width:100%;
+            background-color: transparent;
+            display:flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            gap:20%;
+            
+            }
+            .punto-linea-centro1{
+            height: 18%;
+            width:70%;
+            background-color: transparent;
+            display:flex;
+            gap:5%;
+            .linea1{
+                width: 80%;
+                height:100%;
+                background-color: white;
+
+            }
+            .punto1{
+                width:12%;
+                height: 100%;
+                background-color: var(--celestito);
+
+            }
+            }
+            .punto-linea-centro2{
+            height: 18%;
+            width:70%;
+            display:flex;
+            gap:5%;
+        
+          
+            .linea2{
+                width: 80%;
+                height:100%;
+                background-color: white;
+
+            }
+            .punto2{
+                width:12%;
+                height: 100%;
+                background-color: var(--celestito);
+
+            }
+            }
 
 
         }
@@ -113,11 +164,44 @@
             height: 100%;
             width:65%;
             background-color: transparent;
+            
             .linea-centro{
                 height: 20%;
                 width:100%;
                 background-color:var(--grisoscuro);
 
+            }
+            .lineas-texto-centro{
+                width:100%;
+                height: 55%;
+                background-color: transparent;
+                display:flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                .lineas-finas-centro1{
+                    width:100%;
+                    height: 8%;
+                    background-color: white;
+                }
+                .lineas-finas-centro2{
+                    width:100%;
+                    height: 8%;
+                    background-color: white;
+                }
+                .lineas-finas-centro3{
+                    width:100%;
+                    height: 8%;
+                    
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    .lineita{
+                    display:flex;
+                    width:50%;
+                    height: 100%;
+                    background-color: white;
+                    }
+                }
             }
 
         }
